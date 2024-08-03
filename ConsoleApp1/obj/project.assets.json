@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "KaitaiStruct.Runtime.CSharp/0.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Kaitai.Struct.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Kaitai.Struct.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win7-x86": {
+      "KaitaiStruct.Runtime.CSharp/0.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Kaitai.Struct.Runtime.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Kaitai.Struct.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KaitaiStruct.Runtime.CSharp/0.10.0": {
+      "sha512": "r7uIEXKN1x7U4V5jvsU04Gf3TNiRRd0NTqpt1Sqyq/EXvMF7nQ6AAu9SCOktGw9UCdD7zeVB1XfHx+tbMdaXZA==",
+      "type": "package",
+      "path": "kaitaistruct.runtime.csharp/0.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "icon.png",
+        "kaitaistruct.runtime.csharp.0.10.0.nupkg.sha512",
+        "kaitaistruct.runtime.csharp.nuspec",
+        "lib/net45/Kaitai.Struct.Runtime.dll",
+        "lib/net45/Kaitai.Struct.Runtime.xml",
+        "lib/netstandard1.3/Kaitai.Struct.Runtime.dll",
+        "lib/netstandard1.3/Kaitai.Struct.Runtime.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "KaitaiStruct.Runtime.CSharp >= 0.10.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Wilps\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Wilps\\Desktop\\MyNewProject\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\Wilps\\Desktop\\MyNewProject\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Wilps\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wilps\\Desktop\\MyNewProject\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Wilps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "KaitaiStruct.Runtime.CSharp": {
+            "target": "Package",
+            "version": "[0.10.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
